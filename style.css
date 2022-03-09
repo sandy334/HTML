@@ -10,6 +10,10 @@
   --mix: #54bab9;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -65,15 +69,12 @@ header nav {
   color: var(--pure);
   padding: 0.6rem;
   text-align: end;
-
 }
 
 .hero .right h1 {
   font-size: 3rem;
   font-weight: 500;
   margin: -0.5rem 0 0.5rem 0;
-
- 
 }
 .hero .right h6 {
   font-size: 0.9rem;
@@ -86,4 +87,51 @@ header nav {
   font-weight: 300;
   line-height: 1.2;
   margin: 0 0 1rem 0;
+}
+
+section {
+  padding: 5rem 0;
+}
+
+.card {
+  position: relative;
+  min-width: 500px;
+  max-width: 650px;
+  background-color: var(--light);
+  padding: 2rem;
+  margin: 2rem 0;
+  margin-right: 30px;
+  border-width: 0px;
+  border-style: solid;
+  border-color: var(--dark);
+  box-shadow: 23px 12px 14px -14px var(--dark);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.card h3::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: var(--mix);
+}
+
+.card img {
+  position: absolute;
+  top: -35px;
+  right: 0px;
+}
+
+.card:hover {
+  background-color: var(--dark);
+  color: var(--light);
+  box-shadow: 17px 27px 36px 0px var(--dark);
 }
