@@ -39,13 +39,20 @@
 }
 
 .btn-secondary {
- background-color: transparent;
- color: var(--primary);
- border-color: var(--primary);
+  background-color: transparent;
+  color: var(--primary);
+  border-color: var(--primary);
 }
 
 .btn-secondary:hover {
- background-color: var(--primary);
- color: var(--dark);
- border-color: var(--primary);
+  background-color: var(--primary);
+  color: var(--dark);
+  border-color: var(--primary);
+}
+
+.f-1 {
+  flex: 1;
+}
+.f-w {
+  flex-wrap: wrap;
 }

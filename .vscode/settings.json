@@ -2,5 +2,33 @@
     "cSpell.words": [
         "Sanjay"
     ],
-    "liveServer.settings.port": 5502
+    "liveServer.settings.port": 5502,
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#8792ff",
+        "activityBar.activeBorder": "#ffdfe2",
+        "activityBar.background": "#8792ff",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#ffdfe2",
+        "activityBarBadge.foreground": "#15202b",
+        "editorGroup.border": "#8792ff",
+        "panel.border": "#8792ff",
+        "sash.hoverBorder": "#8792ff",
+        "statusBar.background": "#5463ff",
+        "statusBar.border": "#5463ff",
+        "statusBar.debuggingBackground": "#fff054",
+        "statusBar.debuggingBorder": "#fff054",
+        "statusBar.debuggingForeground": "#15202b",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#8792ff",
+        "statusBarItem.remoteBackground": "#5463ff",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "tab.activeBorder": "#8792ff",
+        "titleBar.activeBackground": "#5463ff",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.border": "#5463ff",
+        "titleBar.inactiveBackground": "#5463ff99",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#5463FF"
 }
