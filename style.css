@@ -15,13 +15,23 @@ html {
 }
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
+}
+
+.hero .right button a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.hero .right button :hover {
+  color: var(--dark);
+  text-decoration: none;
 }
 
 header {
@@ -54,6 +64,7 @@ header nav .left a:hover {
 
 header nav {
   padding: 0.6rem 0;
+  position: fiz;
 }
 
 .container {
@@ -134,4 +145,60 @@ section {
   background-color: var(--dark);
   color: var(--light);
   box-shadow: 17px 27px 36px 0px var(--dark);
+}
+
+.about .right {
+  text-align: right;
+  padding-left: 10%;
+}
+
+.about .right h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: -0.7rem;
+  transition: all 0.4s ease-in-out;
+}
+
+.about .right h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--dark);
+}
+
+.about .right p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.3;
+  text-align: end;
+}
+
+.animations .container .box {
+  height: 600px;
+  width: 600px;
+  background-color: var(--dark);
+  padding: 2rem;
+}
+.animations .container .ball {
+  height: 40px;
+  width: 40px;
+  border: 0px solid transparent;
+  border-radius: 50%;
+  background-color: var(--tertiary);
+  animation-name: ball-animation;
+  animation-duration: 2000ms;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes ball-animation {
+  from {
+    transform: rotate(0deg) translateX(150px)
+      rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(150px)
+      rotate(-360deg);
+  }
 }
